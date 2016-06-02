@@ -16,8 +16,8 @@ environments {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             driver = "com.mysql.jdbc.Driver"
             url = "jdbc:mysql://localhost/grails"
-            username = ""
-            password = ""
+            username = "david"
+            password = "lutefisk"
         }
     }
     test {
@@ -31,8 +31,8 @@ environments {
             dbCreate = "update"
             driver = "com.mysql.jdbc.Driver"
             url = "jdbc:mysql://localhost/grails"
-            username = ""
-            password = ""
+            username = "david"
+            password = "lutefisk"
             pooled = true
             properties {
                maxActive = -1
