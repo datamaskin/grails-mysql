@@ -1,7 +1,7 @@
 # Grails 2 With MySQL
 
 ## Background
-Initially I was planning to use this repository to learn about Grails with MySQL. However do to my laziness I decided to gather everything that I learn about Grails into this repository.
+This is a test grails app using mysql and Spring Security. This app is to help debug the Oracle DB configuration. The Spring Sec has some issues but ignored here for now.
 
 ## Links
 - [Grails with MySQL][1]
@@ -9,7 +9,7 @@ Initially I was planning to use this repository to learn about Grails with MySQL
 
 ## Configurations
 
-Currently there is no grails-app/conf/DataSource.groovy available. To create one just copy the content of grails-app/conf/DataSource-sample.groovy and configure the MySQL credentials.
+Only the DataSource.groovy needs to be edited for PW and user id for the mysql DB.
 
 ## Running the application
 
