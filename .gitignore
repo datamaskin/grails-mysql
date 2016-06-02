@@ -30,6 +30,7 @@
 # older plugin install locations
 /plugins
 /web-app/plugins
+web-app/
 
 # "temporary" build files
 /target
@@ -216,3 +217,13 @@ src_managed/
 project/boot/
 .history
 .cache
+.slcache/
+grails-app/conf/hibernate/
+grails-app/services/
+grails-app/taglib/
+grails-app/utils/
+lib/
+scripts/
+src/
+test/integration/
+web-app/
